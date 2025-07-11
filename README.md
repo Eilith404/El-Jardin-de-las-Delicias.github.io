@@ -2,6 +2,93 @@
 <head>
   <meta charset="UTF-8">
   <title>El Jardín de las Delicias - Reflexión</title>
+  <style>
+  /* Tipografías */
+  body {
+  font-family: 'Georgia', serif;
+  background-color: hsl(30, 40%, 90%);
+  color: #2e1a15;
+  margin: 0;
+  padding: 20px;
+  }
+  
+  h1, h2, h3, h4 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: hsl(340, 60%, 30%)
+  }
+  
+  h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 240, 220, 0.9)
+  padding: 10px;
+  z-index: 100;
+  }
+  
+  /* Posicionamiento absolute */
+  a {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: rgba(30, 30, 30, 0.7);
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  }
+  
+  /* Listas */
+  ul, ol {
+  margin-left: 40px;
+  padding: 10px;
+  background-color: hsla(34, 80%, 85% 0.3);
+  border-left: 5px solid rgb(150, 120, 100);
+  }
+  
+  li {
+  margin-bottom: 10px;
+  }
+  
+  /* Imágenes */
+  img {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid rgba(0,0,0,0.2)
+  }
+  
+  /*Márgenes de párrafos*/
+  p {
+  margin: 20px 10px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  maz-width: 800px;
+  }
+  
+  /* Fondo artístico */
+  body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at center, rgba(255, 230, 200, 0.2), rgba(200, 180, 160, 0.4));
+  z-index: -1;
+  }
+  
+  /*Posicionamiento relative y fixed*/
+  h4 {
+  position: relative;
+  left: 20px;
+  color: #662222;
+  }
+  
+  /* BONUS: efecto artístico hover*/
+  img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s;
+  box.shadow: 0 0 15px rgba (60, 30, 10, 0.4);
+  }
+  </style>
 </head>
 <body>
 
